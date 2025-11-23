@@ -1,0 +1,113 @@
+body{
+    width: 500px;
+    height:auto;
+    background: linear-gradient(135deg, var(--gradient-color1,#ef9e52), var(--gradient-color2,#ea8f44));
+}
+
+.root {
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.search{
+    display:flex;
+    flex-direction: row;
+    gap:7px;
+}
+
+.loading{
+    font-size:large;
+}
+
+.grid {
+    display:grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    background-color: #ffffff;
+    gap:5px;
+}
+
+.textbox {
+    flex:1;
+    min-width:200px;
+}
+
+
+.pages {
+    display:flex;
+    flex-direction: row;
+    gap:2px;
+}
+
+.item-img {
+    width:48px;
+    height:48px;
+    object-fit: cover;
+}
+
+input::placeholder {
+    color: #cccccc;
+}
+
+.submit {
+    color: #fff;
+    background: #4c6ef5;
+    cursor: pointer;
+    border: none;
+    padding: 3px 10px;
+}
+
+.row1 {
+    display:flex;
+    flex-direction: row;
+    gap:4px;
+}
+
+.text{
+    display:flex;
+    flex-direction: row;
+    gap:4px;
+}
+
+
+.row2 {
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+}
+
+.cell{
+    display:flex;
+    flex-direction: column;
+    gap:4px;
+    border: 1px solid #ef9e52;
+}
+
+.pot {
+    margin-top:auto;
+}
+
+
+.yesFull, .noFull {
+    display:flex;
+    flex-direction: column;
+}
+
+.yesNum,.noNum{
+    margin-top:auto
+}
+
+
+.yes{
+    background-color: #c8fbce;
+    color: rgb(0, 142, 7);
+    text-align: center;
+    border-radius:4px;
+}
+
+.no{
+    background-color:#fcc7c7;
+    color: #cb2a2a;
+    text-align: center;
+    border-radius:4px;
+}

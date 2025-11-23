@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Polymarket Global Events Betting Odds",
+  "version": "1.0.0",
+  "description": "Polymarket Betting Odds for Global Events",
+  "action":{
+    "default_popup":"popup.html"
+  },
+  "host_permissions": ["https://gamma-api.polymarket.com/*", "https://4rlb5xh5osnoeuv6usqeo5qsqa0qpjhn.lambda-url.us-east-1.on.aws/*"],
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "128": "images/icon128.png"
+  }
+}
